@@ -1,6 +1,52 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+h1,h2,h3,h4,h5,h6 {
+    font-family: Arial, Century, Matisse;
+}
+header {
+    margin: 3rem 1rem;
+}
+header p {
+    margin-top: 0;
+}
+header h1 {
+    margin-bottom: 0;
+}
+aside {
+    width: 50%;
+    max-width: 750px;
+    padding: 1rem;
+}
+aside img {
+    width: 160px;
+    height: auto;
+    float: right;
+    margin: 10px;
+}
+section {
+    clear: both;
+}
+ul.poem{
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.8;
+    font-size: 1.5rem;
+}
+.content-footer {
+}
+.page-footer {
+    border-top: 2px rgba(0,0,0,0.6) solid;
+    padding-top: 2rem;
+}
+html{
+    background-image: url(images/hiking-the-sand-dunes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: 0 auto;
+    width: 75%;
+    background-color: rgba(255,255,255,0.3);
+    padding: 1rem;
 }
